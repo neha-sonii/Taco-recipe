@@ -8,13 +8,13 @@
   - Clean and interactive user interface.
 
   ## Technologies Used
-    **HTML** <br>
-    **CSS** <br>
-    **Javascript** <br>
-    **Express(Node.js)** 
+   **HTML** <br>
+   **CSS** <br>
+   **Javascript** <br>
+   **Express(Node.js)** 
 
  ## How to run Locally
-    1. **Clone the repository:**
+   1. **Clone the repository:**
         ```bash
         git clone
         https://github.com/neha-sonii/Taco-recipe.git
