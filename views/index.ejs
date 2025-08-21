@@ -42,6 +42,17 @@
       <% } else { %>
         <h2>Pick your favourite taco ingredient 👆</h2>
         <% } %>
+          <% recipe.ingredients.toppings.forEach(topping => { %>
+            <li>
+              <%= topping.quantity %> of <%= topping.name %>
+            </li>
+            
+          <% }); %>
+        </li>
+      </ul>
+     <% } else { %>
+    <h2>Pick your favourite taco ingredient 👆</h2>
+    <% } %>
 
   </div>
 </body>
