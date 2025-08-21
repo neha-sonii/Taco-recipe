@@ -18,7 +18,6 @@ app.get("/", (req, res) => {
 });
 
 app.post("/recipe", (req, res) => {
-  //Step 3: Write your code here to make this behave like the solution website.
   switch (req.body.choice) {
     case "chicken":
       data = JSON.parse(recipeJSON)[0];
@@ -32,9 +31,7 @@ app.post("/recipe", (req, res) => {
     default:
       break;
   }
-  res.redirect("/")
-
-  //Step 4: Add code to views/index.ejs to use the recieved recipe object.
+  res.redirect("/");
 });
 
 app.listen(port, () => {
