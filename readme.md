@@ -29,5 +29,5 @@
 
 ## Start the server:
    ```Bash
-   nodemon start
+   nodemon index.js
    ```
